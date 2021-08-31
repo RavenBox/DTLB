@@ -234,6 +234,21 @@ strong {
 	text-decoration: none;
 }
 
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:35%;
+    position:relative;
+    height:1;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
 .form-group {
 	position: relative;
 	margin-bottom: 1.25rem;
